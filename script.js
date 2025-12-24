@@ -20,8 +20,8 @@ function render() {
       <span>${task.text}</span>
       <div class="actions">
         <span onclick="toggle(${index})">✔</span>
-        <span onclick="edit(${index})">✏️</span>
-        <span onclick="removeTask(${index})">❌</span>
+        <span onclick="edit(${index})">🖋️</span>
+        <span onclick="removeTask(${index})">❎</span>
       </div>
     `;
     list.appendChild(li);
